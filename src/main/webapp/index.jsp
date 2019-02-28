@@ -26,5 +26,6 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 		刘佩建写<br>
 		DAT-4wentichuli<br>
 		ssssss<br>
+		测试CI build的效果<br>
   </body>
 </html>
