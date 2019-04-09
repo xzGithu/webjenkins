@@ -43,6 +43,6 @@
         </configuration>
       </plugin>
     </plugins>
-    <finalName>${artifactId}-${version}-${BUILD_ID}</finalName> 
+    <finalName>${project.artifactId}-${project.version}-${BUILD_ID}</finalName> 
   </build>
 </project>
