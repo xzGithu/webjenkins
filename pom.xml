@@ -43,6 +43,6 @@
         </configuration>
       </plugin>
     </plugins>
-    <finalName>${project.artifactId}-${maven.build.timestamp}</finalName> 
+    <finalName>${artifactId}-${version}-${BUILD_ID}</finalName> 
   </build>
 </project>
