@@ -8,11 +8,8 @@
   <properties>  
   <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>  
   <maven.build.timestamp.format>yyyy-MM-dd_HH_mm</maven.build.timestamp.format>  
-  </properties>  
-
-  <build>  
-    <finalName>${project.artifactId}-${maven.build.timestamp}</finalName>  
-  </build>
+  </properties>   
+     
   <description/>
   <dependencies>
     <dependency>
@@ -46,5 +43,6 @@
         </configuration>
       </plugin>
     </plugins>
+    <finalName>${project.artifactId}-${maven.build.timestamp}</finalName> 
   </build>
 </project>
