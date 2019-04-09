@@ -2,9 +2,17 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>ZheTest</groupId>
   <artifactId>ZheTest</artifactId>
-  <version>${BUILD_ID}</version>
+  <version>0.0.2-SNAPSHOT</version>
   <packaging>war</packaging>
   <name>ZheTest</name>
+  <properties>  
+  <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>  
+  <maven.build.timestamp.format>yyyy-MM-dd_HH_mm</maven.build.timestamp.format>  
+  </properties>  
+
+  <build>  
+    <finalName>${project.artifactId}-${maven.build.timestamp}</finalName>  
+  </build>
   <description/>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
