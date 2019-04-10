@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>ZheTest</groupId>
   <artifactId>ZheTest</artifactId>
-  <version>0.0.2-SNAPSHOT</version>
+  <version>0.0.2-SNAPSHOT-${BUILD_ID}</version>
   <packaging>war</packaging>
   <name>ZheTest</name>
   <properties>  
